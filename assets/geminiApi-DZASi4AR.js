@@ -1,4 +1,4 @@
-const c="AIzaSyC9oDpeo6ttA2nifEe_CDZ29wN8zWREibw",d="https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent";class p{async makeRequest(s,a="hi",e){try{const t={role:"system",parts:[{text:`You are an expert agricultural AI assistant helping Indian farmers. Always respond in ${a==="hi"?"Hindi":a==="ta"?"Tamil":"English"} language.
+const c="key here",d="https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent";class p{async makeRequest(s,a="hi",e){try{const t={role:"system",parts:[{text:`You are an expert agricultural AI assistant helping Indian farmers. Always respond in ${a==="hi"?"Hindi":a==="ta"?"Tamil":"English"} language.
 
 Provide practical, actionable advice for farming issues. Focus on:
 - Crop diseases and pest management
